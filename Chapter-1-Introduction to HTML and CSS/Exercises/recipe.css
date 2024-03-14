@@ -1,0 +1,112 @@
+body, h1, h2, p, ul, ol, li { 
+    padding:0;
+    margin:0;
+}
+
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color:#333;
+}
+
+/*Heading style*/
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color:#fff;
+    background-color: #3f1d0d;
+}
+
+h1 {
+    font-size:40px ;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size:28.8px;
+    margin-bottom: 15px;
+    color: #471b1b;
+}
+
+/*Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #d2b48c;
+    box-shadow: 0 2px 8px rgba (0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/*section styles */
+section {
+    margin-bottom: 30px;
+}
+
+/* List styles*/ 
+ul,ol {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+/* Paragraph style */
+p {
+    line-height: 1.6;
+    text-align: justify ;
+}
+
+/* Image styles */ 
+.recipe-image {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    float: center;
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nutrition-value {
+    max-width: 200px;
+    float: left;
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styles */ 
+section { 
+    margin-bottom: 30px;
+    overflow: hidden; 
+}
+
+/* Video styles*/ 
+.video {
+    margin-top: 20px;
+}
+
+video{
+    width:100%;
+    height:auto;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow:0 2px 6px rgba (0, 0, 0, 0.1)
+}
+
+footer {
+    margin-top:20px;
+    text-align: center;
+}
+
+.footer-content p {
+    padding: 10px;
+    display:inline-block;
+    border: 1px solid #ccc;
+}
