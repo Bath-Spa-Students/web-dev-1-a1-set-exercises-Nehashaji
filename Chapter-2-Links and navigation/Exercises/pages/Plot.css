@@ -1,0 +1,31 @@
+/*Styles plot page*/
+
+body {
+    background-color: #eedabbe7;
+    font-family:Arial, san-serif;
+    margin:0;
+    padding:0;
+}
+
+.plot-section{
+    max-width:1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius:10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.plot-section h1{
+    text-align:center;
+    text-decoration: underline;
+}
+
+.plot-section p {
+    line-height: 1.6;
+    margin-bottom:20px;
+}
+
+.plot-section h2 {
+    text-align: center;
+}

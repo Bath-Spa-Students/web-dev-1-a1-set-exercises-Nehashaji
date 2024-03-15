@@ -1,0 +1,35 @@
+/*Style cast and crew team page*/
+
+body {
+    background-color: #eedabbe7;
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.cast-crew-section{
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    margin: 50px auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1)
+}
+
+.cast-crew-section h2 {
+    text-align:center ;
+    text-decoration: underline;
+}
+
+.cast-crew-section h3 {
+    margin-top: 20px;
+}
+
+.cast-crew-section ul {
+    margin-bottom:10px;
+}
+
+.cast-crew-section li strong {
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+/*Styles Characters page*/
+
+body{
+    background-color: #eedabbe7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.characters-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba (0, 0, 0, 0.1)
+}
+
+.characters-section h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.characters-section ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.characters-section li{
+    margin-bottom:20px;
+}
+
+.characters-section li strong {
+    font-weight: bold;
+}
