@@ -1,0 +1,23 @@
+div:first-child{
+    border-color: rgb(158,54,206);
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.9);
+}
+
+div:nth-child(2){
+    border-color: rgb(41, 226, 41);
+    box-shadow: inset 10px 10px 10px black;
+}
+
+div:nth-child(3){
+    border-radius: 10px;
+    border-color: rgb(247, 127,14 );
+    box-shadow:
+    0 0 0 6px blue,
+    0 0 0 10px red,
+    0 0 0 15px green;
+}
+
+div:nth-child(4){
+    border-color: rgb(189, 10,10);
+    text-shadow:5px 5px 1px black;
+}
