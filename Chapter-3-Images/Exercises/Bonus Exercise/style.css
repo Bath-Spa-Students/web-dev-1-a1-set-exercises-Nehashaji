@@ -1,3 +1,4 @@
+/*Style for div element*/ 
 div{
     display: inline-block;
     font-family: sans-serif;
@@ -10,6 +11,7 @@ div{
     height: 200px;
 }
 
+/*Styling for the body*/
 body{
     margin:100px auto;
     width:max-content;

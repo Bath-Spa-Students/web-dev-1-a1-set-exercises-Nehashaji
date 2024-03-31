@@ -1,13 +1,16 @@
+/*Styling for the 1st div*/
 div:first-child{
     border-color: rgb(158,54,206);
     box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.9);
 }
 
+/*Styling for the 2nd div*/
 div:nth-child(2){
     border-color: rgb(41, 226, 41);
     box-shadow: inset 10px 10px 10px black;
 }
 
+/*Styling for the 3th div*/
 div:nth-child(3){
     border-radius: 10px;
     border-color: rgb(247, 127,14 );
@@ -17,6 +20,7 @@ div:nth-child(3){
     0 0 0 15px green;
 }
 
+/*Styling for the 4th div*/
 div:nth-child(4){
     border-color: rgb(189, 10,10);
     text-shadow:5px 5px 1px black;
