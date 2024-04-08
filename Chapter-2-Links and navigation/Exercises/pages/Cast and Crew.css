@@ -10,26 +10,26 @@ body {
 .cast-crew-section{
     max-width: 800px;
     font-family: Arial, sans-serif;
-    margin: 50px auto;
+    margin: 50px auto;/*margin to center the section horizontally*/
     padding:20px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 10px;/*Border radius to create round corners*/
     box-shadow:0 0 10px rgba(0,0,0,0.1)
 }
 
 .cast-crew-section h2 {
-    text-align:center ;
-    text-decoration: underline;
+    text-align:center ;/*Center alignment*/
+    text-decoration: underline;/*underline for heading*/
 }
 
 .cast-crew-section h3 {
-    margin-top: 20px;
+    margin-top: 20px;/*Top margin for subheading*/
 }
 
 .cast-crew-section ul {
-    margin-bottom:10px;
+    margin-bottom:10px;/*Bottom margin for unordered list*/
 }
 
 .cast-crew-section li strong {
-    font-weight: bold;
+    font-weight: bold; /*Bold font*/
 }

@@ -7,6 +7,7 @@ body {
     padding:0;
 }
 
+/*Styling the plot section*/
 .plot-section{
     max-width:1000px;
     margin: 50px auto;
@@ -16,11 +17,13 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/*Styling the headings within the plot section*/
 .plot-section h1{
     text-align:center;
     text-decoration: underline;
 }
 
+/*Styling the paragraphs within the plot section*/
 .plot-section p {
     line-height: 1.6;
     margin-bottom:20px;

@@ -5,51 +5,60 @@
     box-sizing:border-box;
 }
 
+/*Body styles*/
 body{
     font-family: 'Georgia', serif;
     background-color: #eedabbe7;
 }
 
+/*Container styles*/
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; /*Aligning the container in center*/
     padding: 20px;
     text-align: center;
 }
 
+/*Navigation bar styling*/
 .navbar {
-    background-color:#f7d7a8;
-    padding: 10px 0;
+    background-color:#f7d7a8; /*Background colour of Navbar*/
+    padding: 10px 0;/*padding of top and bottom*/
     text-align: center;
 }
 
+/*Unordered list style*/
 .navbar ul {
-list-style-type:none;
-display: inline-block;
-margin:0 auto;
+list-style-type:none; /*Removes bulleted points*/
+display: inline-block;/*Making it horizontally*/
+margin:0 auto;/*Center align the navbar items*/
 }
 
+/*List items styles*/
 .navbar li {
-    display:inline-block;
+    display:inline-block;/*Making the navbar items appear horizontally*/
 }
 
+/*Anchor styles*/
 .navbar a {
     color: #4b2c3e;
-    text-decoration: none;
+    text-decoration: none;/*Removes underline*/
     padding: 10px 20px;
     transition: background-color 0.3s ease;
 }
 
+/*Hover styles for anchors*/
 .navbar a:hover {
     background-color: #e6af4b;
 }
 
+/*Header styles*/
 h1{
     font-size:36px;
-    margin-bottom:20px;
+    margin-bottom:20px; /*bottom margin*/
     color:#4b2c3e;
 }
 
+/*Paragraph styles*/
 p{
     font-size: 18px;
     line-height: 1.6;
@@ -57,12 +66,13 @@ p{
     margin-bottom: 20px;
 }
 
+/*Styling for button link*/
 .button-link {
-    display:inline-block;
+    display:inline-block;/*Making the line appear as a block element*/
     padding: 10px 20px;
-    background-color: #4b2c36;
-    color:#fff;
+    background-color: #4b2c36;/*for the button*/
+    color:#fff;/*Text color*/
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5px;/*Making the corners round*/
 }
 
