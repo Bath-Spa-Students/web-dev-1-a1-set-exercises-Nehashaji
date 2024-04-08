@@ -1,0 +1,70 @@
+/*Body styling*/
+body{
+    font-family:Arial, sans-serif;
+    background-color: black;
+    margin:0;
+    padding:0;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*Styling the main container*/
+.container{
+    width: 500px;/*width of thr container*/
+    background-color: #ffc400;
+    padding:20px;/*padding inside the container*/  
+    border-radius:5px;
+}
+
+/*styling the input groups*/
+.input-group{
+    margin-bottom:15px;
+}
+
+/*Styling for labels in input groups*/
+.input-group label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+/*Styling for input fields in input groups*/
+.input-group input{
+    width:calc(100% - 16px);/*Adjusted width of input fields*/
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;/*Smooth transition for border color change*/  
+    margin-bottom: 5px;/* Spacing below input fields*/
+}
+
+/*Styling for focused input fields*/
+.input-group input:focus{
+    border-color: rgb(240, 248, 255);
+    outline:none;
+}
+
+/*Styling for the calculation button*/
+button{
+    background-color: #1a1605;
+    color:#fff;
+    border: none;/*no border for button*/
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor:pointer;/*Cursor style when hovering over the button*/
+    transition:background-color 0.3s;
+}
+
+/*Hover effect for button*/
+button:hover{
+    background-color: #9e9779;
+}
+
+/*Styling for paragraphs*/
+p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:15px;
+}
